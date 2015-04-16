@@ -76,10 +76,9 @@
 \contentsline {section}{\numberline {3.3}Aplica\IeC {\c c}\IeC {\~a}o de Exemplo}{25}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Estudo de Caso: Tetris}}{34}{chapter.4}
-\contentsline {section}{\numberline {4.1}Sobre a Escolha do Jogo}{34}{section.4.1}
-\contentsline {section}{\numberline {4.2}Limita\IeC {\c c}\IeC {\~o}es do Set-Top Box}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Estilos de Tetris}{34}{section.4.3}
-\contentsline {section}{\numberline {4.4}Documenta\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{34}{section.4.4}
-\contentsline {section}{\numberline {4.5}Resultados}{34}{section.4.5}
+\contentsline {section}{\numberline {4.1}Limita\IeC {\c c}\IeC {\~o}es do Set-Top Box}{34}{section.4.1}
+\contentsline {section}{\numberline {4.2}Estilos de Tetris}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}Documenta\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados}{35}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{35}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{36}{chapter.5}
