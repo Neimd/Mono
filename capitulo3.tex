@@ -196,26 +196,26 @@
 \selectlanguage{brazil}
 \frenchspacing 
 
-%\imprimircapa
-%\imprimirfolhaderosto*
+\imprimircapa
+\imprimirfolhaderosto*
 
-%\pdfbookmark[0]{\listfigurename}{lof}
-%\listoffigures*
-%\cleardoublepage
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
 
-%\pdfbookmark[0]{\listtablename}{lot}
-%\listoftables*
-%\cleardoublepage
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
 
-%\pdfbookmark[0]{\listofquadrosname}{loq}
-%\listofquadros*
-%\cleardoublepage
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
 
-%\pdfbookmark[0]{\lstlistlistingname}{lol}
-%\begin{KeepFromToc}
-%\lstlistoflistings
-%\end{KeepFromToc}
-%\cleardoublepage
+\pdfbookmark[0]{\lstlistlistingname}{lol}
+\begin{KeepFromToc}
+\lstlistoflistings
+\end{KeepFromToc}
+\cleardoublepage
 
 \begin{siglas}
   \item[GW] Ginga Wings
@@ -931,11 +931,41 @@ Realizar uma triagem do anseio da população disposta a jogar em uma TV Digital
 
 \section{Limitações do Set-Top Box}
 
-Existem vários modelos de STB, variando dos modelos mais simples, criados para apenas apresentação de conteúdo simples, até STBs mais sofisticados com várias aplicações já prontas para uso na memória. O foco, na maioria dos casos, está em aplicações de streaming (TV Digital, Netflix, etc)
 
-\section{Estilos de Tetris}
 
-O jogo Tetris foi originalmente desenvolvido por Alexey Pajitnov, em 1985. Foi desenvolvido enquanto ele trabalhava para a Academia Soviética de Ciências em Moscou. Pajitnov, um entusiasta em quebra-cabeças, começou a trabalhar em um jogo, simulando seu jogo favorito, pentominos. Com o passar do tempo, os pentominos foram transformados em tetraminos, provavelmente devido a dificuldades encontradas na implementação. Este novo formato também trouxe novas regras: os tetraminos cairiam em um poço, e o jogador deveria tentar alocá-los no poço a fim de eliminá-los. Esta primeira versão foi criada usando Pascal para Eletronica 60, e consistia de colchetes e gráficos em preto e branco. Foi, mais tarde, portado para IBM PC por Vadim Gerasimov. O jogo "viralizou" em pouco tempo. Segundo o autor, em duas semanas, a maioria dos proprietários de PC já tinham uma cópia do jogo, expandindo-se para a Europa mais tarde.
+\section{Tetris}
+
+Tetris é um jogo muito popular desenvolvido entre 1985 e 1986 por mim, Alexey Pajitnov (Pazhitnov) e Dmitry Pavlovsky. Pajitnov e Pavlovsky eram engenheiros de computação do Centro de Computação da Academia Russa de Ciências (Russian Academy of Sciences). Eu era um estudante colegial de 16 anos de idade. Meu professor de ciências da computação, Arkady Borkovsky, me levou ao Centro de Computação onde eu trabalhava e mexia com computadores IBM. Eu rapidamente aprendi sobre programação e me divertia trabalhando com diversos projetos.
+
+Dmitry percebeu a minha existência quando eu estava escrevendo um programa para encriptar diretórios do MS-DOS. Ele me disse que gostava de jogos de computador e tinha desenvolvidos alguns jogos para o computador mainframe. Ele me perguntou se eu estava interessando em ajudá-lo a converter os jogos para a plataforma PC e trabalhar com ele no desenvolvimento de novas idéias. Eu, obviamente, estava muito interessado. Pavlovsky me mostrou os seus jogos e me deu o código fonte de um deles. No dia seguinte, eu converti o jogo para a plataforma PC. Assim, começamos a trabalhar juntos.
+
+Em pouco tempo Dmitry me apresentou para o seu amigo Pajitnov que também estava interessado em desenvolver jogos de computador. Dmitry me contou que Alexey já havia negociado a venda de alguns de seus jogos com temas ligados a psicologia. Alexey nos mostrou alguns jogos que haviam sido desenvolvidos recentemente. Decidimos trabalhar como um time. Minhas funções eram: perito na plataforma PC, programador e designer gráfico.
+
+Nossa idéia era elaborar uma dúzia de jogos viciantes para a plataforma PC e colocá-los juntos em um único sistema que chamamos de "funfair". Pajitnov e Pavlovsky também pensavam em vender os jogos. Entretanto, esta idéia não era muito comum e de fácil aplicação na época, uma vez que vivíamos na União Soviética. Criar e vender algo de forma privada era considerado altamente irregular. Nos focamos em criar ferramentas para a plataforma PC, convertendo jogos recentes e desenvolvendo novas idéias de jogos.
+
+Em poucas semanas, havíamos convertidos todos os jogos mais antigos que valiam a pena e desenvolvido bibliotecas de suporte gráfico (4 cores, 320x200), de textos e sons para os nossos jogos. Em poucos meses tínhamos uma série de bons jogos. A maioria deles foi provalvemente perdida. Recentemente encontrei apenas um deles. O jogo era um remake de Xonix com um campo invertido e escondido de jogo. Dmitry o chamou de Antix (abreviação de Antixonix). Atenção: o jogo não possui velocidade (proper time delay) apropriada e roda de maneira muito rápida nos computadores modernos, exceto se você usar um software de emulação. Eu não sei quem desenvolveu o jogo Xonix original. Mas o jogo foi um grande sucesso no Centro de Computação e nas redondenzas de Moscow antes de Tetris ser lançado.
+
+Alguns meses depois de termos começado a trabalhar juntos, Pajitnov veio com a idéia de Tetris. Antes de nos conhecermos, ele tinha um jogo de computador chamado Genetic Engineering (Engenharia Genética). Nele o jogador tinha que mover uma peça com quatro lados (tetramino) em volta da tela usando o teclado. O jogador poderia montar várias formas. Eu não lembro exatamente o objetivo do jogo, mas me parecia bastante estúpido.
+
+Durante uma de nossas reuniões, Pajitnov contou para mim e Pavlovsky sua nova idéia de um tetramino caindo em um vidro retangulo e se empilhando no fundo. Ele acreditava que um jogo como este faria sucesso. Rapidamente, após discutirmos a idéia, Pajitnov fez um protótipo para Electronica 60, então, eu o converti para a plataforma PC usando as ferramentas que havíamos desenvolvido. Pajitnov e eu continuamos a adicionar detalhes ao programa por alguns anos.
+
+O nome Tetris foi puramente idéia de Alexey. A palavra é uma combinação de tetramino com tennis. Na minha opinião, a palavra soava um pouco estranho em russo, mas Pajitnov insistia em dar ao jogo esse nome.
+
+Alguns anos depois Pajitnov e eu desenvolvemos uma versão para dois jogadores de Tetris e trabalhamos em alguns projetos de testes psicológicos para o amigo de Alexey chamado Vladimir Pokhilko. Vladimir foi o primeiro psicólogo clínico que conduziu experimentos com Tetris. Na versão de Tetris para dois jogadores, o vidro não tinha fundo, As peças de um jogador vinham de cima enquanto a do outro vinha de baixo. Os jogadores competiam pelo espaço.
+
+As tentativas de Pajitnov para vender os jogos de forma conjunta falharam. Assim, decidirmos dar aos nosso amigos cópias gratuitas dos jogos, incluindo Tetris. Os jogos rapidamente se espalharam. Quando a versão para PC de Tetris chegou além da União Soviética, e uma empresa estrangeira teve o interesse de licenciar Tetris, Pajitnov decidiu abandonar todos os jogos, exceto Tetris. A decisão não foi muito bem aceita por Pavlovsky e isso acabou com o time deles.
+
+Em 1991, Pajitnov mudou para os Estados Unidos com o seu amigo Vladimir Pokhilko. Pavlovsky imigrou para o Reino Unido em 1990.
+
+Tetris gerou muitos lucros para para algumas organizações e pessoas não esperadas e causou uma série de batalhas legais. Você pode ler sobre o lado business da história no livro Game Over de David Sheff. Um interessante documentário da BBC, filmado entre 2003/2004, retrata alguns dos eventos e visões atuais sobre algumas pessoas chaves envolvidas nos negócios.
+
+Alexey Pajitnov e um empreendedor norte americano (Henk Rogers) fundaram a Tetris Company. Eu não tenho nenhuma relação com a empresa e não apoio a sua política. Ao contrário do que alega Henk Rogers, não houve nenhum acordo direto entre Pajitnov e eu. Na União Soviética, onde negócios privados não eram autorizados e o conceito de propriedade intelectual não era definido, pessoas não podiam fazer acordos diretos deste tipo. O Centro de Computação da Academia Russa de Ciências era a proprietária de tudo aquilo que criamos. Alguns anos depois a situação na União Soviética mudou, mas isso é uma outra história. Quando eu trabalhei no desenvolvimento de Tetris, mesmo uma organização governamental não poderia me contratar por que eu ainda era menor. Eu trabalhei no desenvolvimento de Tetris apenas por diversão. Eu não me lembro de Pajitnov alguma vez ter me pago algo em razão do Tetris. Pajitnov começou a negociar os aspectos financeiros da situação alguns anos depois quando ele e Henk Rogers participaram da negociação com a Elrog (única organização governamental da União Soviética que poderia vender softwares para o exterior). Pajitnov passou na minha casa e pediu para eu assinar uns papéis com urgência sob a justificativa de que "ganharíamos muito dinheiro das empresas de jogos". Ele não me deixou uma cópia dos papéis. Pelo o que eu me lembre, o papel dizia que eu concordava em dar para Pajitnov todos os direitos para lidar com negócios e que recusaria qualquer indenização relacionada ao Tetris. Eu não concordei plenamente com o conteúdo, mas confiei em Alexey e assinei os papéis mesmo assim. Em alguns meses meu nome desapareceu de todas as novas versões de Tetris e de toda documentação relacionada. Alexey registrou uma licença (copyright) do jogo nos Estados Unidos (R/N PA-412-170) relacionada a versão gratuita de Tetris para PC (versão original 3.12) que desenvolvemos juntos.
+
+A primeira versão para MS DOS de Tetris foi implementada alguns dias depois de Alexey desenvolver o protótipo para Electronica 60. Todos nós = Dmitry, Alexey, e Eu - éramos fãs de Pascal e sua estrutura de programação apesar do artigo recentemente publicado Programadores de Verdade não usam Pascal ("Real Programmers Don't Use Pascal").Nós usamos vários tipos de Pascal para implementar as nossas idéias do jogo. No MS DOS a nossa escolha era o Borland's Turbo Pascal. Eu comecei programando com a versão 1.0. Na verdade, eu ainda me divirto programando com Turbo Pascal - Borland Delphi. Na última versão de Tetris que trabalhamos juntos, usamos o Turbo Pascal 4. A última versão do jogo é a 3.12. Apesar de 3.12 ser um número meramente arbitrário uma vez que não tinhamos uma política de numeração de versões. A propósito, esta versão tem um Easter Egg. Embora não seja um Easter Egg sofisticado, eu imagino se alguém irá descobri-lo.
+
+A versão para MS DOS é um pouco diferente da minuta para Electronica 60 que inicialmente tinha apenas o vidro e a contagem de pontos. Esta versão rodava em um monitor alfanumérico monocromático (verde/preto). Os quadrados do tetramino eram desenhados como um par de [ ]. O jogo era divertido e viciante mesmo dessa forma. Isso nos deu um motivo para correr com a implementação da versão para MS DOS. Eu acredito que Alexey expandiu a sua versão para Electronica depois que a passamos para PC para igualar algumas das características que fizemos na versão PC. Eu nunca trabalhei com a plataforma Electronica.
+
+Diligentemente impementamos a versão MS DOS de uma forma que pudesse rodar em qualquer PC disponível. O programa rodava em versão de texto usando símbolos coloridos para representar os tetraminos. O jogo poderia inclusive reconhecer automaticamente o cartão monocromático da IBM ajustando a forma como ficaria impresso na tela. A frequência do clock do PC já existia com a introdução do IBM PC AT e PC clones. Muitos jogos lançados para os modelos PC e PC XT (4.77 MHz) rodavam de forma muito acelerada nas máquinas mais novas. A última versão de nosso jogo foi uma das primeiras a usar a sua própria frequência de tempo/velocidade. Vinte anos depois, o mesmo programa ainda funciona sem nenhuma mudança, aparenta e é o mesmo (especialmente na tela cheia do DOS Box).
 
 \section{Documentação da Aplicação}
 

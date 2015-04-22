@@ -3,82 +3,86 @@
 \select@language {brazil}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{5}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{10}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Trabalhos Relacionados}}{6}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Trabalhos Relacionados}}{11}{chapter.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Engine Ginga Wings}}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Arquitetura de Implementa\IeC {\c c}\IeC {\~a}o}{7}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Hardware}{7}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Sistema Operacional}{8}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Ginga}{8}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}GingaWings}{9}{subsection.3.1.4}
-\contentsline {subsubsection}{\numberline {3.1.4.1}Gr\IeC {\'a}ficos}{10}{subsubsection.3.1.4.1}
-\contentsline {subsubsection}{\numberline {3.1.4.2}Audio}{11}{subsubsection.3.1.4.2}
-\contentsline {subsubsection}{\numberline {3.1.4.3}Parametriza\IeC {\c c}\IeC {\~a}o}{11}{subsubsection.3.1.4.3}
-\contentsline {subsubsection}{\numberline {3.1.4.4}Aplica\IeC {\c c}\IeC {\~a}o}{12}{subsubsection.3.1.4.4}
-\contentsline {section}{\numberline {3.2}Detalhamento da API}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Class}{13}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}Class:\_\_class() : table}{14}{subsubsection.3.2.1.1}
-\contentsline {subsubsection}{\numberline {3.2.1.2}Class:\_\_classname() : String}{14}{subsubsection.3.2.1.2}
-\contentsline {subsubsection}{\numberline {3.2.1.3}Class:\_\_superClass() : metatable}{14}{subsubsection.3.2.1.3}
-\contentsline {subsubsection}{\numberline {3.2.1.4}Class:\_\_is\_a(string: nomedaclasse) : boolean}{14}{subsubsection.3.2.1.4}
-\contentsline {subsubsection}{\numberline {3.2.1.5}Class:\_\_is\_a(table: classe) : boolean}{14}{subsubsection.3.2.1.5}
-\contentsline {subsubsection}{\numberline {3.2.1.6}Class:\_\_respond-to(string: m\IeC {\'e}todo) : boolean}{14}{subsubsection.3.2.1.6}
-\contentsline {subsection}{\numberline {3.2.2}Game\_Object}{14}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Object:update() : boolean}{15}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Object:dispose() : boolean}{15}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}Object:draw()}{15}{subsubsection.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.2.4}Object:\_\_create\_event(string: event)}{15}{subsubsection.3.2.2.4}
-\contentsline {subsubsection}{\numberline {3.2.2.5}Object:\_\_consume\_event(string: event)}{15}{subsubsection.3.2.2.5}
-\contentsline {subsubsection}{\numberline {3.2.2.6}Object:\_\_\_\_fire\_event(string: event)}{15}{subsubsection.3.2.2.6}
-\contentsline {subsection}{\numberline {3.2.3}Timer}{16}{subsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.3.1}Game\_Timer:sync(number: total\_time) : number}{16}{subsubsection.3.2.3.1}
-\contentsline {subsection}{\numberline {3.2.4}Graphics}{17}{subsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.4.1}Game\_Graphics:insertLayer(number: n, table: obj)}{17}{subsubsection.3.2.4.1}
-\contentsline {subsection}{\numberline {3.2.5}Sprite}{17}{subsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.5.1}Sprite.new(string: path) : table}{17}{subsubsection.3.2.5.1}
-\contentsline {subsubsection}{\numberline {3.2.5.2}Sprite:set\_crop(number: w, number: h)}{18}{subsubsection.3.2.5.2}
-\contentsline {subsubsection}{\numberline {3.2.5.3}Sprite:setup\_frames(number: index, number: steady, string: sound, table: offset)}{18}{subsubsection.3.2.5.3}
-\contentsline {subsection}{\numberline {3.2.6}Cache}{18}{subsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.6.1}Game\_Resources.load\_image(string: path)}{18}{subsubsection.3.2.6.1}
-\contentsline {subsubsection}{\numberline {3.2.6.2}Game\_Resources.load\_background(string: path)}{19}{subsubsection.3.2.6.2}
-\contentsline {subsubsection}{\numberline {3.2.6.3}Game\_Resources.load\_character(string: path)}{19}{subsubsection.3.2.6.3}
-\contentsline {subsubsection}{\numberline {3.2.6.4}Game\_Resources.free\_image(string: path)}{19}{subsubsection.3.2.6.4}
-\contentsline {subsubsection}{\numberline {3.2.6.5}Game\_Resources.play\_SE(string: label)}{19}{subsubsection.3.2.6.5}
-\contentsline {subsubsection}{\numberline {3.2.6.6}Game\_Resources.stop\_SE(string: label)}{19}{subsubsection.3.2.6.6}
-\contentsline {subsubsection}{\numberline {3.2.6.7}Game\_Resources.pause\_SE(string: label)}{19}{subsubsection.3.2.6.7}
-\contentsline {subsubsection}{\numberline {3.2.6.8}Game\_Resources.play\_BG(string: label)}{19}{subsubsection.3.2.6.8}
-\contentsline {subsubsection}{\numberline {3.2.6.9}Game\_Resources.stop\_BG(string: label)}{20}{subsubsection.3.2.6.9}
-\contentsline {subsubsection}{\numberline {3.2.6.10}Game\_Resources.pause\_BG(string: label)}{20}{subsubsection.3.2.6.10}
-\contentsline {subsection}{\numberline {3.2.7}Scene}{20}{subsection.3.2.7}
-\contentsline {subsubsection}{\numberline {3.2.7.1}GWScene:begin()}{20}{subsubsection.3.2.7.1}
-\contentsline {subsubsection}{\numberline {3.2.7.2}GWScene:behavior()}{20}{subsubsection.3.2.7.2}
-\contentsline {subsubsection}{\numberline {3.2.7.3}GWScene:End()}{21}{subsubsection.3.2.7.3}
-\contentsline {subsubsection}{\numberline {3.2.7.4}GWScene:getObjects(string: className) : table}{21}{subsubsection.3.2.7.4}
-\contentsline {subsubsection}{\numberline {3.2.7.5}GWScene:deleteObject(table: obj)}{21}{subsubsection.3.2.7.5}
-\contentsline {subsection}{\numberline {3.2.8}Parameters}{22}{subsection.3.2.8}
-\contentsline {subsubsection}{\numberline {3.2.8.1}GWInitializer:parse(id: string,par: string)}{22}{subsubsection.3.2.8.1}
-\contentsline {subsection}{\numberline {3.2.9}Collision}{22}{subsection.3.2.9}
-\contentsline {subsubsection}{\numberline {3.2.9.1}\_\_collision\_setup(offx: number, offy: number, wd: number, hg: number, frame: number, ct: number)}{24}{subsubsection.3.2.9.1}
-\contentsline {subsubsection}{\numberline {3.2.9.2}left() : number}{24}{subsubsection.3.2.9.2}
-\contentsline {subsubsection}{\numberline {3.2.9.3}right() : number}{24}{subsubsection.3.2.9.3}
-\contentsline {subsubsection}{\numberline {3.2.9.4}top() : number}{24}{subsubsection.3.2.9.4}
-\contentsline {subsubsection}{\numberline {3.2.9.5}bottom() : number}{24}{subsubsection.3.2.9.5}
-\contentsline {subsubsection}{\numberline {3.2.9.6}colide(obj: table) : boolean}{24}{subsubsection.3.2.9.6}
-\contentsline {subsection}{\numberline {3.2.10}Input}{24}{subsection.3.2.10}
-\contentsline {subsubsection}{\numberline {3.2.10.1}GW\_Input.pressed(key: string) : boolean}{24}{subsubsection.3.2.10.1}
-\contentsline {subsubsection}{\numberline {3.2.10.2}GW\_Input.trigger(key: string) : boolean}{24}{subsubsection.3.2.10.2}
-\contentsline {subsubsection}{\numberline {3.2.10.3}GW\_Input.consecutive(key: string) : boolean}{25}{subsubsection.3.2.10.3}
-\contentsline {subsection}{\numberline {3.2.11}Utils}{25}{subsection.3.2.11}
-\contentsline {subsubsection}{\numberline {3.2.11.1}PROMPT(msg: string)}{25}{subsubsection.3.2.11.1}
-\contentsline {section}{\numberline {3.3}Aplica\IeC {\c c}\IeC {\~a}o de Exemplo}{25}{section.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Engine Ginga Wings}}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Arquitetura de Implementa\IeC {\c c}\IeC {\~a}o}{12}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Hardware}{12}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sistema Operacional}{13}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Ginga}{13}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}GingaWings}{14}{subsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Gr\IeC {\'a}ficos}{15}{subsubsection.3.1.4.1}
+\contentsline {subsubsection}{\numberline {3.1.4.2}Audio}{16}{subsubsection.3.1.4.2}
+\contentsline {subsubsection}{\numberline {3.1.4.3}Parametriza\IeC {\c c}\IeC {\~a}o}{16}{subsubsection.3.1.4.3}
+\contentsline {subsubsection}{\numberline {3.1.4.4}Aplica\IeC {\c c}\IeC {\~a}o}{17}{subsubsection.3.1.4.4}
+\contentsline {section}{\numberline {3.2}Detalhamento da API}{18}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Class}{18}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Class:\_\_class() : table}{19}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Class:\_\_classname() : String}{19}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Class:\_\_superClass() : metatable}{19}{subsubsection.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.1.4}Class:\_\_is\_a(string: nomedaclasse) : boolean}{19}{subsubsection.3.2.1.4}
+\contentsline {subsubsection}{\numberline {3.2.1.5}Class:\_\_is\_a(table: classe) : boolean}{19}{subsubsection.3.2.1.5}
+\contentsline {subsubsection}{\numberline {3.2.1.6}Class:\_\_respond-to(string: m\IeC {\'e}todo) : boolean}{19}{subsubsection.3.2.1.6}
+\contentsline {subsection}{\numberline {3.2.2}Game\_Object}{19}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Object:update() : boolean}{20}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Object:dispose() : boolean}{20}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}Object:draw()}{20}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}Object:\_\_create\_event(string: event)}{20}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}Object:\_\_consume\_event(string: event)}{20}{subsubsection.3.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.6}Object:\_\_\_\_fire\_event(string: event)}{20}{subsubsection.3.2.2.6}
+\contentsline {subsection}{\numberline {3.2.3}Timer}{21}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}Game\_Timer:sync(number: total\_time) : number}{21}{subsubsection.3.2.3.1}
+\contentsline {subsection}{\numberline {3.2.4}Graphics}{22}{subsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.4.1}Game\_Graphics:insertLayer(number: n, table: obj)}{22}{subsubsection.3.2.4.1}
+\contentsline {subsection}{\numberline {3.2.5}Sprite}{22}{subsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.5.1}Sprite.new(string: path) : table}{22}{subsubsection.3.2.5.1}
+\contentsline {subsubsection}{\numberline {3.2.5.2}Sprite:set\_crop(number: w, number: h)}{23}{subsubsection.3.2.5.2}
+\contentsline {subsubsection}{\numberline {3.2.5.3}Sprite:setup\_frames(number: index, number: steady, string: sound, table: offset)}{23}{subsubsection.3.2.5.3}
+\contentsline {subsection}{\numberline {3.2.6}Cache}{23}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Game\_Resources.load\_image(string: path)}{23}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {3.2.6.2}Game\_Resources.load\_background(string: path)}{24}{subsubsection.3.2.6.2}
+\contentsline {subsubsection}{\numberline {3.2.6.3}Game\_Resources.load\_character(string: path)}{24}{subsubsection.3.2.6.3}
+\contentsline {subsubsection}{\numberline {3.2.6.4}Game\_Resources.free\_image(string: path)}{24}{subsubsection.3.2.6.4}
+\contentsline {subsubsection}{\numberline {3.2.6.5}Game\_Resources.play\_SE(string: label)}{24}{subsubsection.3.2.6.5}
+\contentsline {subsubsection}{\numberline {3.2.6.6}Game\_Resources.stop\_SE(string: label)}{24}{subsubsection.3.2.6.6}
+\contentsline {subsubsection}{\numberline {3.2.6.7}Game\_Resources.pause\_SE(string: label)}{24}{subsubsection.3.2.6.7}
+\contentsline {subsubsection}{\numberline {3.2.6.8}Game\_Resources.play\_BG(string: label)}{24}{subsubsection.3.2.6.8}
+\contentsline {subsubsection}{\numberline {3.2.6.9}Game\_Resources.stop\_BG(string: label)}{25}{subsubsection.3.2.6.9}
+\contentsline {subsubsection}{\numberline {3.2.6.10}Game\_Resources.pause\_BG(string: label)}{25}{subsubsection.3.2.6.10}
+\contentsline {subsection}{\numberline {3.2.7}Scene}{25}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}GWScene:begin()}{25}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}GWScene:behavior()}{25}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {3.2.7.3}GWScene:End()}{26}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {3.2.7.4}GWScene:getObjects(string: className) : table}{26}{subsubsection.3.2.7.4}
+\contentsline {subsubsection}{\numberline {3.2.7.5}GWScene:deleteObject(table: obj)}{26}{subsubsection.3.2.7.5}
+\contentsline {subsection}{\numberline {3.2.8}Parameters}{27}{subsection.3.2.8}
+\contentsline {subsubsection}{\numberline {3.2.8.1}GWInitializer:parse(id: string,par: string)}{27}{subsubsection.3.2.8.1}
+\contentsline {subsection}{\numberline {3.2.9}Collision}{27}{subsection.3.2.9}
+\contentsline {subsubsection}{\numberline {3.2.9.1}\_\_collision\_setup(offx: number, offy: number, wd: number, hg: number, frame: number, ct: number)}{29}{subsubsection.3.2.9.1}
+\contentsline {subsubsection}{\numberline {3.2.9.2}left() : number}{29}{subsubsection.3.2.9.2}
+\contentsline {subsubsection}{\numberline {3.2.9.3}right() : number}{29}{subsubsection.3.2.9.3}
+\contentsline {subsubsection}{\numberline {3.2.9.4}top() : number}{29}{subsubsection.3.2.9.4}
+\contentsline {subsubsection}{\numberline {3.2.9.5}bottom() : number}{29}{subsubsection.3.2.9.5}
+\contentsline {subsubsection}{\numberline {3.2.9.6}colide(obj: table) : boolean}{29}{subsubsection.3.2.9.6}
+\contentsline {subsection}{\numberline {3.2.10}Input}{29}{subsection.3.2.10}
+\contentsline {subsubsection}{\numberline {3.2.10.1}GW\_Input.pressed(key: string) : boolean}{29}{subsubsection.3.2.10.1}
+\contentsline {subsubsection}{\numberline {3.2.10.2}GW\_Input.trigger(key: string) : boolean}{29}{subsubsection.3.2.10.2}
+\contentsline {subsubsection}{\numberline {3.2.10.3}GW\_Input.consecutive(key: string) : boolean}{30}{subsubsection.3.2.10.3}
+\contentsline {subsection}{\numberline {3.2.11}Utils}{30}{subsection.3.2.11}
+\contentsline {subsubsection}{\numberline {3.2.11.1}PROMPT(msg: string)}{30}{subsubsection.3.2.11.1}
+\contentsline {section}{\numberline {3.3}Aplica\IeC {\c c}\IeC {\~a}o de Exemplo}{30}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Estudo de Caso: Tetris}}{34}{chapter.4}
-\contentsline {section}{\numberline {4.1}Limita\IeC {\c c}\IeC {\~o}es do Set-Top Box}{34}{section.4.1}
-\contentsline {section}{\numberline {4.2}Estilos de Tetris}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Documenta\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{35}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados}{35}{section.4.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Estudo de Caso: Tetris}}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Limita\IeC {\c c}\IeC {\~o}es do Set-Top Box}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Tetris}{39}{section.4.2}
+\contentsline {section}{\numberline {4.3}Documenta\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{43}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados}{43}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{36}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{44}{chapter.5}
