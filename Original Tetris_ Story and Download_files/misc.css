@@ -1,0 +1,9 @@
+div.float {
+  float: right;
+  width: 320px;
+  padding: 12px;
+  }
+  
+div.float p {
+   text-align: center;
+   }
