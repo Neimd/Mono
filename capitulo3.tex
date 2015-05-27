@@ -114,6 +114,7 @@
 
 % informações do PDF
 \makeatletter
+\def\p@subsection{}
 \hypersetup{
      	%pagebackref=true,
 		pdftitle={\@title}, 
@@ -220,6 +221,7 @@
 \begin{siglas}
   \item[GW] Ginga Wings
   \item[OO] Programação Orientada a Objetos
+  \item[SRS] Super Rotation System
 \end{siglas}
 
 \pdfbookmark[0]{\contentsname}{toc}
@@ -937,27 +939,11 @@ Realizar uma triagem do anseio da população disposta a jogar em uma TV Digital
 
 \subsection{História}
 
-While working for the Computing Center at the Academy of Sciences of the USSR, Alexey Pajitnov envisions an electronic game in which players could arrange puzzle pieces in real time while they fell from the top of the playing field at increasing speeds. Using an Electronika 60 computer, he designs a game that features seven distinctive geometric game pieces, each made up of four squares. Alexey calls the game “Tetris,” a combination of the word “tetra” (Greek word meaning “four”) and “tennis” (his favorite sport). The game is ported to the IBM PC and becomes an immediate hit with his colleagues, spreading like wildfire throughout the Soviet Union.
+Em 1984, enquanto trabalhava para o Centro de Computação da Academia de Ciências da URSS, Alexey Pajitnov anteviu um jogo eletrônico em que os jogadores poderiam arranjar peças de um quebra-cabeças em tempo real, enquanto eles caíram da parte superior do campo de jogo em velocidades cada vez maiores. Usando um computador de 60 Electronika, ele projetou um jogo que apresentava sete distintas peças geométricas, cada um composto por quatro quadrados. Alexey chamou o jogo de "Tetris", uma combinação da palavra "tetra" (palavra grega que significa "quatro") e "tênis" (seu esporte favorito). O jogo foi portado para o PC IBM e tornou-se um sucesso imediato com seus colegas, se espalhando como fogo em toda a União Soviética.
 
-Tetris begins its global expansion by launching on PCs in North America and Europe. The game is showcased at the 1988 Consumer Electronics Show in Las Vegas, where Henk Rogers, video game designer and publisher, comes across it and gives Tetris a try. He’s immediately hooked and thinks there’s something special about the game (he wasn’t wrong!). His company, Bullet-Proof Software, obtains the rights to releases Tetris for PC and NES in Japan, and more than 2 million copies are sold.
+Em pouco tempo, Tetris começou sua expansão global, lançando em PCs na América do Norte e Europa. O jogo foi apresentado em 1988 na Consumer Electronics Show, em Las Vegas, onde Henk Rogers, designer de jogos e editor, se deparou com Tetris. Ele ficou imediatamente viciado e achou que havia algo especial sobre o jogo. Sua empresa, a Bullet-Proof Software, obteve os direitos para lançamentos de Tetris para PC e NES no Japão, e mais de 2 milhões de cópias foram vendidas. Já em 1989, Henk se encontrou com Alexey, autor do jogo. Henk manteve posse dos direitos de Tetris para portáteis e os licenciou para a Nintendo, que colocou Tetris para lançamento junto com seu novo console portátil Game Boy. Esta associação conseguiu resultou na venda de 35 milhões de cópias, alavancando ainda mais os nomes das duas empresas.
 
-Henk meets Alexey, and the two immediately click and become close friends. When Henk secures the handheld rights to Tetris and licenses the rights to Nintendo, the successful video game company bundles Tetris with its new Game Boy portable gaming console. This perfect pair results in the sales of a whopping 35 million copies!
-
-A university’s scientific research suggests that practicing Tetris can help the brain operate more efficiently. It’s no wonder why Russian cosmonaut Aleksandr A Serebov decides to take his Nintendo Game Boy and Tetris game cartridge aboard the Soyus TM-17 rocket en route to the MIR Space Station. He spends 197 days working in the station and helps Tetris become the first video game in space!
-
-Henk establishes Blue Planet Software, Inc. as the exclusive agent for the Tetris brand. Shortly after, The Tetris Company is formed, becoming the source of all licenses to Tetris. Many aspects of the game become standardized and, with the help of artist Roger Dean, a bold and distinctive Tetris logo is created.
-
-G-mode publishes a mobile Tetris game, boosting it to Japan’s #1 spot in games for mobile phones! To continue the development of Tetris for mobile devices, Henk establishes Blue Lava Wireless, and Tetris rapidly gains momentum in the North American mobile market. Eventually, Jamdat purchases Blue Lava Wireless and obtains an exclusive license to publish Tetris on mobile devices.
-
-EA obtains Jamdat and becomes the new exclusive licensee of Tetris for mobile devices. Meanwhile, Nintendo releases Tetris for the DS and sells over two million copies worldwide!  As he watches the global impact of his creation continue to grow, Alexey receives the “First Penguin Award” at the Game Developers Conference, where Tetris is widely recognized as the game that gave birth to the casual game industry.
-
-EA Mobile releases Tetris for the iPhone and iPod touch platforms, while Tetris Online releases Tetris Party for Nintendo Wii. Tetris Party quickly climbs to the #1 spot for WiiWare downloads and nominated for “Best WiiWare Game 2008” and “Best Puzzle Game 2008” by IGN.
-
-Happy 25th anniversary! Tetris Online unveils the first official web-based Tetris game site, Tetris Friends Online Games. The website is a success, and more good news rolls in as Tetris ranks #2 in the “Top 50 Console Games of All Time,” according to the Guinness World Records 2009 Gamer’s Edition.
-
-Without skipping a beat, a new Tetris app for iPad debuts, Tetris Party Deluxe is released for Nintendo Wii and DS, Tetris for PlayStation Network launches to critical acclaim, and a new Tetris line of lifestyle merchandise is introduced worldwide. To top off the year, Tetris surpasses 100 million paid mobile downloads, becoming the best-selling mobile game of all time!
-
-Tetris is named PlayStation Network’s #1 game, while the launch of Tetris Axis for Nintendo 3DS initiates the game’s expansion into augmented reality. This year also marks the release of the Tetris board game, Tetris Link, which brings Tetris off of the screen and onto your table! Tetris Link receives several awards, including American Mensa’s “Mensa Select Award,” Toy of the Year Award’s “Game of the Year,” and Good Housekeeping Research Institute’s “Best Game of 2011.”
+Em 1997, Henk estabeleceu a Blue Planet Software, Inc. como agente exclusivo para a marca Tetris. Pouco depois, The Tetris Company foi formada, tornando-se a fonte de todas as licenças para Tetris. Muitos aspectos do jogo tornaram-se padronizados. Através de empresas como G-mode, Blue Lava Wireless e EA, Tetris é embarcado para sistemas mobile, fazendo com que o jogo fosse reconhecido como pioneiro na indústria de games casuais.
 
 \subsection{Regras de Tetris}
 
@@ -978,6 +964,7 @@ Quando o tetraminó se fixa e preenche todo o espaço de uma linha, esta linha i
 Se o campo não estiver preenchido com blocos, a próxima peça entra. Se o tetraminó não puder ser alocado no campo, pelo menos parcialmente, devido às regras acima, é considerado fim de jogo.
 
 \subsection{Diretrizes}
+\label{subsection1}
 
 A partir da criação da empresa Tetris Company, foi criada uma diretriz para que todos os jogos lançados posteriormente mantivessem um padrão de jogabilidade. Essas diretrizes, assim como as regras, não estão disponíveis oficialmente e foram inferidas através da experimentação dos jogadores.
 
@@ -997,66 +984,72 @@ A partir da criação da empresa Tetris Company, foi criada uma diretriz para qu
   \item As outras aparecem guidas mais à esquerda
   \item Os tetraminós aparecem em formato horizontal, com a parte plana apontada para baixo
   \item O \textit{Super Rotation System} (SRS) especifica a rotação do tetrominó
-  \item Standard mappings for console and handheld gamepads:
+  \item Mapeamento padrão para os controles:
   \begin{itemize}
-   	\item Up, Down, Left, Right on joystick perform locking hard drop, non-locking soft drop (except first frame locking in some games), left shift, and right shift respectively.
-   	\item Left fire button rotates 90 degrees counterclockwise, and right fire button rotates 90 degrees clockwise.
-   	\item Purple T
-   	\item Green S
-   	\item Red Z
-   	\item Blue J
-   	\item Orange L
+   	\item As setas para cima, para baixo, para direita e para esquerda. Para cima derruba imediatamente a peça (\textit{Hard Drop}), para baixo a derruba mais rapidamente (\textit{Soft Drop}), para os lados, move a peça.
+   	\item O botão de ação da esquerda rotaciona a peça 90º em sentido anti-horário, enquanto que o botão de ação da direita rotaciona em sentido horário.
   \end{itemize}
-  \item Standard mappings different from console/handheld gamepads for computer keyboards
-  \item So-called Random Generator (also called "random bag" or "7 system")
-  \item "Hold piece": The player can press a button to send the falling tetromino to the hold box, and any tetromino that had been in the hold box moves to the top of the screen and begins falling. Hold cannot be used again until after the piece locks down. Games on platforms with fewer than eight usable buttons (such as the version on iPod) may skip this feature. The combination of hold piece and Random Generator would appear to allow the player to play forever.
-  \item Game must have ghost piece function.
-  \item Terms used in the user manual: "Tetriminos" not "tetrominoes" nor "tetrads" nor "pieces", letter names not "square" nor "stick", etc.
-  \item Designated soft drop speed. Details vary between guideline versions.
-  \item Player may only level up by clearing lines or performing T-Spin. Required lines depends in the game.
-  \item The game must use a variant of Roger Dean's Tetris logo, although this was true from around 2000 - before the guidelines emerged.
-  \item Game must include a song called Korobeiniki. (Guideline 2005~)
-  \item The player tops out when a piece is spawned overlapping at least one block, or a piece locks completely above the visible portion of the playfield.
+  \item Sistema gerador aleatório de peças (\textit{Random Generator})
+  \item "Segurar a peça": O jogador pode pressionar um botão para enviar o tetraminó que está caindo para a \textit{hold box}, e qualquer tetraminó que já estiver na \textit{hold box} se move para o topo da tela. Este comando não pode ser usado novamente até que a peça trocada se fixe no Tétrion. Jogos com pouca disponibilidade de botões podem ignorar esta funcionalidade.
+  \item O jogo precisa ter a função de peça fantasma.
+  \item O jogador só pode subir o nível de dificuldade limpando linhas ou relizando o movimento textit{T-Spin}.
+  \item O jogo precisa utilizar a logo desenvolvida por Roger Dean ou uma variação.
+  \item O jogo precisa incluir a canção clássica de Tétris, Korobeiniki.
+  \item O jogador perde o jogo quando a peça aparecer sobre outra peça já fixa no Tétrion, ou quando ela se fixa completamente fora do escopo de visão do campo.
 \end{itemize}
 
-The extent to which the Guideline specifies the speed curve, the scoring system, and other aspects not listed on this page, is not yet known to the public.
+Pelo fato dessas regras não serem de domínio público, não é possível estabelecer com precisão algumas características, como a velocidade de queda, o sistema de pontuação, entre outros. 
 
-Although Guideline-compliant games share many traits, they also have differences in many aspects as well. There are a few instances where a game will break a trait which is shared by all other games thought to be compliant. Examples of this include the lack of the hold function and the T-spin's ability to start and continue Back-to-Back chains in iPod Tetris, and the inverted rotation button layout of TGM3 and TGM ACE (or Kiwamemichi, depending on interpretation). No explanations have been given for the reasons of these games' deviations.
+\subsubsection{Super Rotation System}
 
-Super Rotation System, or SRS is the current Tetris Guideline standard for how tetrominoes behave, in a broad sense. SRS represents where and how tetrominoes spawn, how they rotate, and what wall kicks they may perform. In TI, a player may choose between World and Classic rotation styles. World closely resembles SRS, and Classic closely resembles the rotation styles of its predecessors TGM and TAP. Henk Rogers, in his effort to unify all new Tetris games into the Tetris Guideline, required Arika to include SRS, which is called World in Ti. SRS traces its routes back to 1991 when BPS introduced its signature third and fourth orientations for the S, Z, and I tetrominoes in their Tetris 2+Bombliss. Later would come flipped-side-up spawned T, L, and J tetrominoes and flexible new wall kicks. Probably the most accurate SRS finds itself in BPS's latest games Tetris Worlds and Tetris Deluxe, which both feature exact same rotation styles.
+O SRS é o atual sistema padrão de comportamento dos tetraminós. Determina onde e como os tetraminós aparecem, como eles rotacionam e como realizam \textit{wall kicks}.  
 
-All tetrominoes exist inside a bounding square and rotate about the center of this square unless obstructed. Tetrominoes of width 3 (J, L, S, T, Z) are placed in the top two rows of the bounding square and (for J, L, and T) with the flat side down. I is placed in the top middle row.
+Super Rotation System, ou SRS, é o atual padrão de comportamento dos tetrominós. SRS determina onde e como tetrominós aparecem, como eles rotacionam, e quais \textit{wall kicks} eles podem executar. Todos os tetraminós são definidos dentro de um quadrado, e rotacionam pelo seu centro, a não ser que sejam impedidos. As peças com largura 3 (J, L, S, T, Z) são posicionadas nas duas linhas superiores do quadrado e (para J, L e T) com o lado plano para baixo. I é colocado na linha superior. Todos os tetraminós aparecem nas duas linhas ocultas no topo do campo de jogo. São posicionados no meio dessas linhas, com preferência à esquerda caso não seja possível colocá-los exatamente no centro. Uma vez que o tetraminó pouse (no chão ou em outro tetraminó), ele não se fixa até que se passe o tempo de espera para fixação (\textit{delay}). Este comportamento, chamado de \textit{Infinity} pela \textit{Tetris Company}, reseta o \textit{delay} quando o tetraminó é movido ou rotacionado. O movimento \textit{Hard Drop} não sofre \textit{delay}, fixando-se automaticamente, na maioria dos casos (já que nem todas as implementações de Tetris seguem à risca as diretrizes).
 
-All tetrominoes spawn in 2 usually hidden rows at the top of the playfield. They are placed in the center of these rows, rounding to the left.
+Um \textit{wall kick} ocorre quando o jogador rotaciona a peça e não há espaço para que tal movimento seja realizado. O jogo então move a peça para uma posição em que seja possível realizar a rotação sem colidir com os tetraminós já fixados no campo. O algoritmo mais simples desse movimento é tentar movimentar a peça um espaço para a direita, e então um para a esquerda, e falhar caso nenhuma das duas opções seja possível.
 
-Once a tetromino lands, it does not lock until the lock delay expires. The lock delay behavior, called Infinity by the Tetris Company, resets the lock delay whenever the tetromino is moved or rotated. Hard drop is generally mapped to up, which has no lock delay.
+\textit{The Random Generator} é o nome dado ao algoritmo utilizado para gerar a sequência de tetraminós. Ele gera uma sequencia de todos as peças, permutadas randomicamente. Essas peças são servidas ao Tétrion antes de ser gerado uma nova sequência. Nos jogos que implementam este gerador, acredita-se que haja probabilidade igual de aparecimento para cada peça, tornando menos provável casos onde se passa muito tempo sem receber uma peça específica. O algoritmo produz uma diferença entre duas peças iguais de, no máximo, 12 e no mínimo, 4 peças. Algumas implementações quebram essa regra, fazendo sempre uma peça na primeira posição (I, J, L ou T).
 
-Wall kicks in SRS are extremely flexible compared to those of earlier games. Some rotations result in new positions that do not overlap the former position at all, allowing for highly controversial T-spin triples (see Twist).
-
-The Random Generator is BPS's name for the algorithm used to generate the sequence of tetrominoes in Tetris brand games that follow the Tetris Guideline.
-
-Random Generator generates a sequence of all seven one-sided tetrominoes (I, J, L, O, S, T, Z) permuted randomly, as if they were drawn from a bag. Then it deals all seven tetrominoes to the piece sequence before generating another bag. There are 7!, or 5,040, permutations of seven elements, and it is believed that Tetris assigns a nearly equal probability to each of these, making it much less likely that the player will get an obscenely long run without a desired tetromino. It can produce a maximum of 12 tetrominoes between one I and the next I, and a run of S and Z tetrominoes is limited to a maximum of 4. Exception: In Random Generator as implemented in Tetris The Grand Master Ace, the first piece of the first bag is always I, J, L, or T, just as in the traditional TGM randomizer.
-
-Despite the generic sounding name, presumed employees of BPS are known to treat the term "Random Generator" as a unique name, referring only to this particular algorithm.
-
-While the number of tetrominoes in a single bag is usually 7, some games use a different number. The public beta of Tetris Online (Japan) used an 8-bag randomizer for the player. Not all guideline-compliant games use the Random Generator in all modes. Tetris Worlds and Tetris Green, for instance, use a different randomizer in their Square modes, and TGM3 uses the TGM randomizer even when the game is set to "World" mode.
-
-There are two "snake" tetrominoes, called S and Z. As only two snakes will be in a given bag, a sequence of more than two snakes must cross the "seam" between bags. The probability of the next two bags having a sequence of four consecutive snakes, the maximum possible, is 1/(7*6*7*6) for SZSZ and likewise for SZZS, ZSSZ, and ZSZS, for a total of 1/441. But the probability of these being your three next pieces are 1/441 times the probability of being at position 6 in a bag, so the probability of the next four pieces being SZSZ are 1 in 3087.
-
-Define a "2|1 combo" as chosen sixth and seventh pieces in one bag and first piece in next bag, and a "1|2 combo" as chosen seventh piece in one bag and first and second pieces in next bag. Define a "snake" as the S tetromino or the Z tetromino.
-
-The probability of any 2|1 combo (e.g. SZ|Z) is 1/(7*6*7) = 1/294. There are four different 2|1 combos containing all snakes (SZ|Z, SZ|S, ZS|Z, and ZS|S), so the probability of getting a 3-snake 2|1 in your next two bags is 4/294. But the probability of being at the sixth piece in a bag, where your next three pieces are a 2|1, is 1/7, making the probability of being at a three-snake 2|1 equal to 4/(294*7) = 2/1029. By symmetry, the 1|2 probabilities are exactly the same: 2/1029. So for Random Generator, this makes a 1 in 257 chance of your next three tetrominoes being snakes.
-
-The Ghost piece, or ghost for short, also called shadow or (in Arika games) Temporary Landing System (TLS), is a representation of where a tetromino or other piece will land if allowed to drop into the playfield. It is generally colored fainter than the falling piece and the blocks in the playfield. As the player moves the falling piece, the ghost piece moves below it; when the piece falls far enough that it overlaps the ghost piece, the falling piece is always drawn in front.
-
-Older games did not have a ghost piece, but all games that conform to the Tetris Guideline allow the player to use a ghost piece at all times, and Dr. Mario for Nintendo 64 has a ghost piece as well. The ghost piece reduces the number of misdrops, especially for beginners or for high-speed players who use hard drop, but some players who are migrating from games without a ghost piece have trouble adjusting to the ghost piece when they fail to distinguish it from blocks in the playfield.
+A \textit{Ghost Piece} é uma representação de onde o tetraminó irá eventualmente cair se não for movido. Tem uma cor geralmente mais transparente, e é desenhado por trás da peça original. Movimentos no tetraminó são refletidos na \textit{Ghost Piece}.
 
 \section{Documentação da Aplicação}
 
+A aplicação tem como objetivo criar um jogo de Tetris para TV Digital, seguindo as diretrizes já expostas (com algumas ressalvas, mais detalhadas à frente), para um jogador, capaz de gerar e manter um \textit{hi-score} para fins auto-comparativos. O jogo terá diversos níveis de dificuldade, sendo que a diferença entre os níveis está na velocidade de queda das peças. Das diretrizes descritas em \ref{subsection1}, este jogo não irá ter a logo, nem utilizar a canção requerida, nem a função de T-Spin como bônus de pontuação.
 
+A aplicação consiste de algumas classes, aproveitando as funcionalidades fornecidas pela GW. Há uma classe representando o Tetraminó, que herda de Game\_Object, e que é responsável por gerenciar o comportamento isolado do tetraminó (como rotação, tipo, e cor da peça). Há uma classe representando os blocos que compõe o tetraminó. Para fins de otimização de desempenho, esta classe apenas herda de Sprite, de onde tira as informações de imagem. Como ela não tem funcionalidades intrísecas a ela que sejam servidas pela classe Game\_Object, instanciar a classe Block como um Game\_Object seria uma perda desnecessária de desempenho. Há uma classe Tétrion, onde se passa todo o jogo, e que deve implementar as diretrizes especificadas em \ref{subsection1}. Esta classe consome as configurações especificadas na "classe" Tétris, que é responsável por armazenar o modo de funcionamento do jogo. Como não herda de nenhuma classe disponibilizada pela GW, e Lua não disponibiliza a funcionalidade de classes apriori, Tétris é apenas um arquivo .lua que armazena configurações. 
+
+É importante frisar que mesmo numa aplicação de exemplo utilizando a GW, nem todos os comportamentos devem ser criados com base nas funcionalidades disponibilizadas pela Game Engine. Em jogos, a performance (nomeadamente, os frames por segundo) é tão importante quanto a jogabilidade e gráficos\footnote{\url{http://www.eurogamer.net/articles/digitalfoundry-2014-frame-rate-vs-frame-pacing}}. Um jogo que tenha todas as características em desenvolvidas (gráficos, jogabilidade, história, replay, sons e músicas, etc), mas que entrega performance ruim ou instável pode ser tão mal recebido quanto um jogo cheio de erros (bugs)\footnote{\url{http://www.dsogaming.com/editorial/top-5-worst-optimized-pc-games-of-2014/}}. Por isso, otimização é geralmente tratado como um sobrenome para jogos. Em jogos 3D, a otimização é geralmente toda concentrada no aspecto gráfico do jogo, devido a estes rodarem em, geralmente, processadores poderosos, com múltiplos núcleos, e uma placa de vídeo dedicada, configuração supostamente capaz de rodar qualquer aspecto lógico do jogo. As partes gráficas, no entanto, devido à alta complexidade para tentar reproduzir imagens realistas, requerem alto investimento em otimização. Em Set-Top Boxes, por seu baixo poder de processamento, temos que levar em consideração otimizações tanto a nível gráfico quanto a nível de processamento e memória. Por isso, sempre que possível, é bom evitar o uso das classes fornecidas pela GW, pelo fato de adicionarem peso computacional ao objeto. Elas somente devem ser usadas se suas funcionalidades forem essenciais ao funcionamento do objeto, como é o caso do Tetraminó e do Tétrion. A classe Bloco apenas precisa do funcionamento do Sprite, enquanto que o arquivo Tétris não precisa de nenhum dos dois, não herdando portanto nenhuma funcionalidade desnecessária.
+
+\begin{figure}
+\centering
+\includegraphics{tetris_dia_classes.jpg}
+\caption{Diagrama de Classes. Tetris}
+\label{fig:diagramaClassesTetris}
+\end{figure}
+
+Na figura \ref{fig:diagramaClassesTetris} podemos ver um Diagrama de Classes simples que resolve o problema lógico do jogo Tétris. A seguir, explicamos o funcionamento de cada função, levando em consideração as diretrizes descritas em \ref{subsection1}.
+
+A classe mais simples, \textit{Block}, é apenas um wrapper para Sprite. Não adiciona nenhum funcionamento extra, a não ser obter o gráfico dos blocos utilizado no jogo. A classe bloco armazena o sprite de todas as cores de blocos, distribuídos numa única imagem, e apenas escolhe qual parte da imagem será desenhada (o bloco em si). Este método de desenho é mais eficiente do que ter uma imagem para cada cor de bloco, uma vez que é mais rápido apenas escolher uma parte de uma imagem para ser desenhada do que mudar a imagem a ser desenhada.
+
+Se utilizando da classe \textit{Block}, temos a classe Tetraminó. Esta classe é responsável por determinar o formato do tetraminó (atributo \textit{type}) e sua direção (atributo \textit{direction}). O formato da peça determina sua cor, e vice-versa. Os formatos são determinados pelas letras, descritos nas diretrizes. As direções são baixo, esquerda, acima, direita, numeradas de 0 a 3, respectivamente, tendo como direção inicial o valor 0, para satisfazer as diretrizes. O método \textit{draw()} desenha blocos na tela, obedecendo o tipo e a direção. O método \textit{collide(tetrion)} determina se este tetraminó colidiu com o tétrion de alguma forma. O método \textit{rotate(dir)}, que recebe um valor positivo ou negativo, rotaciona a peça de acordo com a direção informada. E por fim, o método \textit{move(x, y)}, que também recebe números positivos ou negativos, movimenta o tetraminó levando em conta as direções informadas. As movimentações sempre acontecem em 1 unidade, independente do valor. O que varia é a direção em que essa unidade é avançada. Nota-se que o método não se responsabiliza por validar se o movimento é válido. A estrutura de dados em que o tetraminó é armazenado é uma matriz 4x4, formada por números, 0 e 1, onde 0 significa não haver nenhum bloco ali, e 1 o contrário. Ela é preenchida levando em consideração o tipo e a direção.
+
+A "classe" Tetris tem o propósito de armazenar as configurações gerais do jogo. Possui o atributo \textit{level (nível)} que determina a dificuldade do jogo. O método \textit{fall\_speed()} determina o intervalo que a peça espera para cair 1 unidade automaticamente, levando em consideração o nível. O método \textit{soft\_speed()} determina a velocidade de queda da peça quando o jogador está utilizando o movimento \textit{Soft Drop}, levando em consideração o nível. O método \textit{line\_points()} determina quantos o jogador recebe ao limpar uma linha. O método \textit{tetris\_points()} determina quantos pontos o jogador recebe ao realizar um tetris (limpar 4 linhas de uma só vez). O método \textit{drop\_points()} determina uma pontuação para quando o jogador fixar um tetraminó no campo.
+
+Por fim, a classe Tétrion tem como responsabilidade gerir todas essas outras classes de acordo com as diretrizes de jogo. O atributo \textit{points} armazena os pontos obtidos pelo jogador, O atributo \textit{lines} informa quantas linhas o jogador já limpou. O atributo \textit{hold} é utilizado para a função \textit{Hold} em jogos de Tetris, onde é possível guardar um tetraminó para uso tardio. O \textit{tetramino\_bag} armazena todas peças geradas randomicamente para serem colocadas em jogo. \textit{stage\_sprite} apenas guarda os sprites utilizados para desenhar o fundo. A função \textit{next()} tira o próximo tetraminó de \textit{tetramino\_bag} e o coloca em campo. A função \textit{hard\_drop()} faz a peça cair automaticamente na mesma posição que está a \textit{Ghost Piece}. A peça se fixa imediatamente após esse comando. O método \textit{move(x, y)} requisita movimento do tetraminó, ao mesmo tempo em que valida sua nova posição, realizando algoritmos descritos no SRS para ajuste de posição. O método \textit{rotate(dir)} requisita um movimento de rotação ao tetraminó, validando sua posição após e ajustando caso haja necessidade, utilizando o SRS. O método \textit{draw()} é sobrescrito para desenhar todos os objetos na tela (o tetraminó, os próximos tetraminós, o \textit{hold}, os pontos, linhas limpas, nível e imagens de fundo). O método \textit{soft\_drop()} acelera a velocidade de queda do tetraminó. Em níveis altos, usar esta função pode ter o mesmo efeito de \textit{hard\_drop()} por causa de uma velocidade muito alta. O método \textit{is\_topped()} verifica se a peça está presa no topo do campo, que é a condição de fim de jogo. O método \textit{hold\_piece()} requisita que o tetraminó atual seja colocado no campo \textit{hold}. Somente uma peça que não saiu do \textit{hold} pode ir para lá, para evitar trocas infinitas enquanto o jogador decide onde colocar a peça.
 
 \section{Resultados}
 
 \chapter{Conclusões} 
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+ 
+ 
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{ref}
 
 \end{document}
