@@ -83,9 +83,13 @@
 \contentsline {section}{\numberline {4.1}Limita\IeC {\c c}\IeC {\~o}es do Set-Top Box}{39}{section.4.1}
 \contentsline {section}{\numberline {4.2}Tetris}{39}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Hist\IeC {\'o}ria}{39}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Regras de Tetris}{41}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Diretrizes}{42}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Documenta\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{46}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.2}Regras de Tetris}{40}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Diretrizes}{41}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Super Rotation System}{42}{subsubsection.4.2.3.1}
+\contentsline {section}{\numberline {4.3}Documenta\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{43}{section.4.3}
 \contentsline {section}{\numberline {4.4}Resultados}{46}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{47}{chapter.5}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{48}{section*.6}

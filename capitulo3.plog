@@ -1,0 +1,185 @@
+Chikrii Softlab pseudoTeX 3.0 report.
+http://www.chikrii.com, mailto: support@chikrii.com
+
+capitulo3.tex (Ln 43) Warning: Can't find pseudoTeX definition for class/package (abntex2)
+capitulo3.tex (Ln 52) Warning: Can't find pseudoTeX definition for class/package (lmodern)
+capitulo3.tex (Ln 53) Warning: Can't find pseudoTeX definition for class/package (fontenc)
+capitulo3.tex (Ln 55) Warning: Can't find pseudoTeX definition for class/package (indentfirst)
+capitulo3.tex (Ln 58) Warning: Can't find pseudoTeX definition for class/package (microtype)
+capitulo3.tex (Ln 66) Warning: Can't find pseudoTeX definition for class/package (backref)
+capitulo3.tex (Ln 67) Warning: Can't find pseudoTeX definition for class/package (abntex2cite)
+capitulo3.tex (Ln 93) Syntax Error: Undefined control sequence (\titulo)
+capitulo3.tex (Ln 94) Syntax Error: Undefined control sequence (\autor)
+capitulo3.tex (Ln 95) Syntax Error: Undefined control sequence (\local)
+capitulo3.tex (Ln 96) Syntax Error: Undefined control sequence (\data)
+capitulo3.tex (Ln 97) Syntax Error: Undefined control sequence (\instituicao)
+capitulo3.tex (Ln 103) Syntax Error: Undefined control sequence (\tipotrabalho)
+capitulo3.tex (Ln 106) Syntax Error: Undefined control sequence (\preambulo)
+capitulo3.tex (Ln 117) Syntax Error: Undefined control sequence (\hypersetup)
+capitulo3.tex (Ln 119) Syntax Error: Undefined control sequence (\@title)
+capitulo3.tex (Ln 120) Syntax Error: Undefined control sequence (\@author)
+capitulo3.tex (Ln 121) Syntax Error: Undefined control sequence (\imprimirpreambulo)
+capitulo3.tex (Ln 155) Syntax Error: Undefined control sequence (\newfloat)
+capitulo3.tex (Ln 156) Syntax Error: Undefined control sequence (\newlistof)
+capitulo3.tex (Ln 157) Syntax Error: Undefined control sequence (\newlistentry)
+capitulo3.tex (Ln 160) Syntax Error: Undefined control sequence (\counterwithout)
+capitulo3.tex (Ln 167) Warning: Can't find pseudoTeX definition for class/package (listings)
+capitulo3.tex (Ln 179) Syntax Error: Undefined control sequence (\newlistof)
+capitulo3.tex (Ln 180) Syntax Error: Undefined control sequence (\newlistentry)
+capitulo3.tex (Ln 196) Syntax Error: Undefined control sequence (\selectlanguage)
+capitulo3.tex (Ln 202) Syntax Error: Undefined control sequence (\pdfbookmark)
+capitulo3.tex (Ln 202) Syntax Error: Undefined control sequence (\listfigurename)
+capitulo3.tex (Ln 203) Syntax Error: Undefined control sequence (\listoffigures)
+capitulo3.tex (Ln 204) Syntax Error: Undefined control sequence (\cleardoublepage)
+capitulo3.tex (Ln 206) Syntax Error: Undefined control sequence (\pdfbookmark)
+capitulo3.tex (Ln 206) Syntax Error: Undefined control sequence (\listtablename)
+capitulo3.tex (Ln 207) Syntax Error: Undefined control sequence (\listoftables)
+capitulo3.tex (Ln 208) Syntax Error: Undefined control sequence (\cleardoublepage)
+capitulo3.tex (Ln 210) Syntax Error: Undefined control sequence (\pdfbookmark)
+capitulo3.tex (Ln 211) Syntax Error: Undefined control sequence (\listofquadros)
+capitulo3.tex (Ln 212) Syntax Error: Undefined control sequence (\cleardoublepage)
+capitulo3.tex (Ln 214) Syntax Error: Undefined control sequence (\pdfbookmark)
+capitulo3.tex (Ln 215) Error: Environment (KeepFromToc) undefined
+capitulo3.tex (Ln 216) Syntax Error: Undefined control sequence (\oldlstlistoflistings) within (\lstlistoflistings)
+capitulo3.tex (Ln 218) Syntax Error: Undefined control sequence (\cleardoublepage)
+capitulo3.tex (Ln 220) Error: Environment (siglas) undefined
+capitulo3.tex (Ln 225) Syntax Error: Undefined control sequence (\pdfbookmark)
+capitulo3.tex (Ln 225) Syntax Error: Undefined control sequence (\contentsname)
+capitulo3.tex (Ln 226) Syntax Error: Undefined control sequence (\tableofcontents)
+capitulo3.tex (Ln 227) Syntax Error: Undefined control sequence (\cleardoublepage)
+capitulo3.tex (Ln 231) Syntax Error: Undefined control sequence (\textual)
+capitulo3.tex (Ln 233) Syntax Error: Undefined control sequence (\chapter)
+capitulo3.tex (Ln 235) Syntax Error: Undefined control sequence (\chapter)
+capitulo3.tex (Ln 237) Syntax Error: Undefined control sequence (\chapter)
+capitulo3.tex (Ln 256) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 278) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 307) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 321) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 335) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 350) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 367) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 367) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 367) Warning: Misplaced subscript
+capitulo3.tex (Ln 371) Syntax Error: missing { inserted
+capitulo3.tex (Ln 371) Warning: Misplaced subscript
+capitulo3.tex (Ln 374) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 374) Warning: Missing } inserted
+capitulo3.tex (Ln 386) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 386) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 386) Warning: Misplaced subscript
+capitulo3.tex (Ln 389) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 468) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 468) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 468) Warning: Misplaced subscript
+capitulo3.tex (Ln 471) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 486) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 486) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 486) Warning: Misplaced subscript
+capitulo3.tex (Ln 490) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 507) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 507) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 507) Warning: Misplaced subscript
+capitulo3.tex (Ln 512) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 519) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 519) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 519) Warning: Misplaced subscript
+capitulo3.tex (Ln 523) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 580) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 580) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 580) Warning: Misplaced subscript
+capitulo3.tex (Ln 596) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 601) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 601) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 601) Warning: Misplaced subscript
+capitulo3.tex (Ln 603) Syntax Error: missing { inserted
+capitulo3.tex (Ln 603) Warning: Misplaced subscript
+capitulo3.tex (Ln 606) Syntax Error: missing { inserted
+capitulo3.tex (Ln 606) Warning: Misplaced subscript
+capitulo3.tex (Ln 611) Syntax Error: missing { inserted
+capitulo3.tex (Ln 611) Warning: Misplaced subscript
+capitulo3.tex (Ln 619) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 619) Warning: Missing } inserted
+capitulo3.tex (Ln 619) Warning: Missing } inserted
+capitulo3.tex (Ln 619) Warning: Missing } inserted
+capitulo3.tex (Ln 628) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 628) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 628) Warning: Misplaced subscript
+capitulo3.tex (Ln 631) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 636) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 636) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 636) Warning: Misplaced subscript
+capitulo3.tex (Ln 642) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 662) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 674) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 687) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 762) Syntax Error: missing number, treated as zero
+capitulo3.tex (Ln 762) Syntax Error: illegal unit of measure
+capitulo3.tex (Ln 763) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 767) Syntax Error: Undefined control sequence (\)
+capitulo3.tex (Ln 768) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 768) Warning: Misplaced subscript
+capitulo3.tex (Ln 769) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 772) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 772) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 772) Warning: Misplaced subscript
+capitulo3.tex (Ln 776) Syntax Error: missing { inserted
+capitulo3.tex (Ln 776) Warning: Misplaced subscript
+capitulo3.tex (Ln 781) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 781) Warning: Missing } inserted
+capitulo3.tex (Ln 782) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 782) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 782) Warning: Misplaced subscript
+capitulo3.tex (Ln 786) Syntax Error: missing { inserted
+capitulo3.tex (Ln 786) Warning: Misplaced subscript
+capitulo3.tex (Ln 791) Syntax Error: missing { inserted
+capitulo3.tex (Ln 791) Warning: Misplaced subscript
+capitulo3.tex (Ln 792) Syntax Error: missing { inserted
+capitulo3.tex (Ln 792) Warning: Misplaced subscript
+capitulo3.tex (Ln 795) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 795) Warning: Missing } inserted
+capitulo3.tex (Ln 795) Warning: Missing } inserted
+capitulo3.tex (Ln 795) Warning: Missing } inserted
+capitulo3.tex (Ln 796) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 796) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 796) Warning: Misplaced subscript
+capitulo3.tex (Ln 800) Syntax Error: missing { inserted
+capitulo3.tex (Ln 800) Warning: Misplaced subscript
+capitulo3.tex (Ln 818) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 818) Warning: Missing } inserted
+capitulo3.tex (Ln 819) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 819) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 819) Warning: Misplaced subscript
+capitulo3.tex (Ln 823) Syntax Error: missing { inserted
+capitulo3.tex (Ln 823) Warning: Misplaced subscript
+capitulo3.tex (Ln 834) Syntax Error: missing { inserted
+capitulo3.tex (Ln 834) Warning: Misplaced subscript
+capitulo3.tex (Ln 835) Syntax Error: missing { inserted
+capitulo3.tex (Ln 835) Warning: Misplaced subscript
+capitulo3.tex (Ln 839) Syntax Error: missing { inserted
+capitulo3.tex (Ln 839) Warning: Misplaced subscript
+capitulo3.tex (Ln 854) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 854) Warning: Missing } inserted
+capitulo3.tex (Ln 854) Warning: Missing } inserted
+capitulo3.tex (Ln 854) Warning: Missing } inserted
+capitulo3.tex (Ln 854) Warning: Missing } inserted
+capitulo3.tex (Ln 863) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 863) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 863) Warning: Misplaced subscript
+capitulo3.tex (Ln 912) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 922) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 922) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 922) Warning: Misplaced subscript
+capitulo3.tex (Ln 942) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 947) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 947) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 947) Warning: Misplaced subscript
+capitulo3.tex (Ln 961) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 962) Error: Environment (lstlisting) undefined
+capitulo3.tex (Ln 962) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 962) Warning: Misplaced subscript
+capitulo3.tex (Ln 988) Syntax Error: Missing $ inserted
+capitulo3.tex (Ln 997) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 1004) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 1011) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+capitulo3.tex (Ln 1016) Syntax Error: Undefined control sequence (\chapter)
+capitulo3.tex (Ln 1165) Syntax Error: Undefined control sequence (\chapter)

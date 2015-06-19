@@ -1,0 +1,34 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@MastersThesis{resendy,
+  Title                    = {Padrões de design de interação para aplicativos de comércio televisivo
+com foco na experiência do usuário discente},
+  Author                   = {Rosendy Jess Fernandez Galabo},
+  School                   = {Universidade Federal do Maranhão, Programa de Pós-graduação em Design},
+  Year                     = {2014},
+
+  Owner                    = {Ryaryu},
+  Timestamp                = {2015.05.23}
+}
+
+@Book{videoGameOptimization,
+  Title                    = {Video Game Optimization},
+  Author                   = {Ben Garney and Eric Preisz},
+  Editor                   = {Heather Talbot},
+  Publisher                = {Course Technology, a part of Cengage Learning},
+  Year                     = {2011},
+
+  Owner                    = {Ryaryu},
+  Timestamp                = {2015.05.23}
+}
+
+@Electronic{tetris_wiki,
+  Note                     = {Reunião de dados obtidos pela comunidade gamer para Tetris. A comunidade é bastante exigente quanto ao conteúdo postado, sendo uma fonte confiável, apesar de indutiva.},
+  Url                      = {http://tetris.wikia.com/wiki/Tetris_Wiki},
+
+  Owner                    = {Ryaryu},
+  Timestamp                = {2015.05.23}
+}
+
