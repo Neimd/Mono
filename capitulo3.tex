@@ -236,6 +236,11 @@
 
 \chapter{Trabalhos Relacionados}
 
+\begin{itemize}
+\item ATHUS
+\item Ginga Game
+\end{itemize}
+
 \chapter{Engine Ginga Wings}
 
 \section{Arquitetura de Implementação}
@@ -991,8 +996,8 @@ A partir da criação da empresa Tetris Company, foi criada uma diretriz para qu
   \end{itemize}
   \item Sistema gerador aleatório de peças (\textit{Random Generator})
   \item "Segurar a peça": O jogador pode pressionar um botão para enviar o tetraminó que está caindo para a \textit{hold box}, e qualquer tetraminó que já estiver na \textit{hold box} se move para o topo da tela. Este comando não pode ser usado novamente até que a peça trocada se fixe no Tétrion. Jogos com pouca disponibilidade de botões podem ignorar esta funcionalidade.
-  \item O jogo precisa ter a função de peça fantasma.
-  \item O jogador só pode subir o nível de dificuldade limpando linhas ou relizando o movimento textit{T-Spin}.
+  \item O jogo precisa ter a função de \textit{Ghost Piece} (peça fantasma).
+  \item O jogador só pode subir o nível de dificuldade limpando linhas ou relizando o movimento \textit{T-Spin}.
   \item O jogo precisa utilizar a logo desenvolvida por Roger Dean ou uma variação.
   \item O jogo precisa incluir a canção clássica de Tétris, Korobeiniki.
   \item O jogador perde o jogo quando a peça aparecer sobre outra peça já fixa no Tétrion, ou quando ela se fixa completamente fora do escopo de visão do campo.
@@ -1001,8 +1006,6 @@ A partir da criação da empresa Tetris Company, foi criada uma diretriz para qu
 Pelo fato dessas regras não serem de domínio público, não é possível estabelecer com precisão algumas características, como a velocidade de queda, o sistema de pontuação, entre outros. 
 
 \subsubsection{Super Rotation System}
-
-O SRS é o atual sistema padrão de comportamento dos tetraminós. Determina onde e como os tetraminós aparecem, como eles rotacionam e como realizam \textit{wall kicks}.  
 
 Super Rotation System, ou SRS, é o atual padrão de comportamento dos tetrominós. SRS determina onde e como tetrominós aparecem, como eles rotacionam, e quais \textit{wall kicks} eles podem executar. Todos os tetraminós são definidos dentro de um quadrado, e rotacionam pelo seu centro, a não ser que sejam impedidos. As peças com largura 3 (J, L, S, T, Z) são posicionadas nas duas linhas superiores do quadrado e (para J, L e T) com o lado plano para baixo. I é colocado na linha superior. Todos os tetraminós aparecem nas duas linhas ocultas no topo do campo de jogo. São posicionados no meio dessas linhas, com preferência à esquerda caso não seja possível colocá-los exatamente no centro. Uma vez que o tetraminó pouse (no chão ou em outro tetraminó), ele não se fixa até que se passe o tempo de espera para fixação (\textit{delay}). Este comportamento, chamado de \textit{Infinity} pela \textit{Tetris Company}, reseta o \textit{delay} quando o tetraminó é movido ou rotacionado. O movimento \textit{Hard Drop} não sofre \textit{delay}, fixando-se automaticamente, na maioria dos casos (já que nem todas as implementações de Tetris seguem à risca as diretrizes).
 
